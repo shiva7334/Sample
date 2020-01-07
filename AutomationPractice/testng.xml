@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Clothes">
+  <test name="Groups">
+  <groups>
+    <run>
+     <include name="regression"></include>
+     <include name="sanity"></include>  
+    </run> 
+  </groups>  
+    <classes>
+      <class name="Clothes.Women"/>
+      <class name="Clothes.Launchsetup"/>
+      <class name="Clothes.Search"/>
+      <class name="Clothes.Dresses"/>
+      <class name="Clothes.Tshirts"/>
+    </classes>
+  </test> <!-- Groups -->
+</suite> <!-- Clothes -->
